@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "VerificacaoChequeEspecial",
+            "request": "launch",
+            "mainClass": "edu.leopoldo.exercicios.desafiodecodigo1.VerificacaoChequeEspecial",
+            "projectName": "conteudo-aulas_824a5e00"
+        },
+        {
+            "type": "java",
+            "name": "Operadores",
+            "request": "launch",
+            "mainClass": "Operadores",
+            "projectName": "conteudo-aulas_824a5e00"
+        },
+        {
+            "type": "java",
             "name": "SistemaIbge",
             "request": "launch",
             "mainClass": "edu.leopoldo.conteudo.enums.SistemaIbge",
