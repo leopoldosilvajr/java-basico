@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://autorack.proxy.rlwy.net:12302/railway
+    username: postgres
+    password: jyouHImHFQqPvdQZQGQteiKwBorbAfSC
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect  
+      
+      # ddl-auto: validate
+      # trocar para validate depois de rodar pela primeira vez, caso contrário o banco de dados sempre será resetado
